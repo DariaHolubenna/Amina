@@ -1,0 +1,314 @@
+.container {
+  width: 100%;
+  min-width: 350px;
+  margin: 0 auto;
+  max-width: 1020px;
+}
+
+main {
+  background-image: url(https://img.desktopwallpapers.ru/newyear/pics/wide/1920x1200/1a3479c602238e73d078531c5b3e22a1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+main header {
+  background-image: url(https://kiev.informator.ua/wp-content/uploads/2018/12/elka_podol-0961.jpg);
+  background-color: rgba(159, 126, 96, 0.6);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+main header img {
+  height: 100px;
+  border-radius: 15px;
+  border: 2px solid darkseagreen;
+  padding: 5px;
+  margin: 5px;
+}
+
+main header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main header nav li {
+  list-style-type: none;
+  padding: 20px;
+}
+
+main header nav a {
+  font-family: monospace, sans-serif;
+  font-size: 32px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: 2px solid darkseagreen;
+  border-radius: 5px;
+  padding: 10px;
+  background-image: url(https://scontent.fiev22-1.fna.fbcdn.net/v/t1.15752-9/71269397_736377966862117_7495095566519500800_n.jpg?_nc_cat=100&_nc_oc=AQkydlo4RmFAReyAX0qnvsQFpWA4z1rUGDUOR0CE52FjoE8veGAAucE2Z--WB_fgOMY&_nc_ht=scontent.fiev22-1.fna&oh=e8fd356609987b707caa8889bcbf5e5d&oe=5E608036);
+}
+
+.backgraund {
+  background-image: url(https://kiev.informator.ua/wp-content/uploads/2018/12/elka_podol-0961.jpg);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.backgraund .list {
+  border-radius: 15px;
+  padding: 15px;
+  background-color: rgba(184, 134, 11, 0.3);
+}
+
+.backgraund .list .item {
+  list-style-type: square;
+  color: white;
+  font-family: monospace, sans-serif;
+  font-size: 22px;
+}
+
+.backgraund img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.backgraund2 {
+  background-image: url(https://kiev.informator.ua/wp-content/uploads/2018/12/elka_podol-0961.jpg);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.backgraund2 .aud {
+  margin-bottom: 130px;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+
+.backgraund2 table {
+  background-image: url(https://scontent.fiev22-1.fna.fbcdn.net/v/t1.15752-9/71269397_736377966862117_7495095566519500800_n.jpg?_nc_cat=100&_nc_oc=AQkydlo4RmFAReyAX0qnvsQFpWA4z1rUGDUOR0CE52FjoE8veGAAucE2Z--WB_fgOMY&_nc_ht=scontent.fiev22-1.fna&oh=e8fd356609987b707caa8889bcbf5e5d&oe=5E608036);
+  padding: 5px;
+  margin: 5px;
+  width: 400px;
+  height: 200px;
+  border: 2px solid darkslategray;
+  color: black;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.backgraund2 table .center :nth-child(1) {
+  text-align: center;
+}
+
+.backgraund2 table .center :nth-child(4) {
+  text-align: center;
+}
+
+.backgraund2 table .center :nth-child(8) {
+  text-align: center;
+}
+
+.backgraund2 table .center :nth-child(10) {
+  text-align: center;
+}
+
+.backgraund2 table .center :nth-child(11) {
+  text-align: center;
+}
+
+.backgraund2 table .center :nth-child(2) {
+  text-align: right;
+}
+
+.backgraund2 table .center :nth-child(3) {
+  text-align: right;
+}
+
+.backgraund2 table .center .nine {
+  text-align: left;
+}
+
+.backgraund2 table .center .ten {
+  text-align: center;
+}
+
+.backgraund2 table .center .f {
+  text-align: right;
+}
+
+.backgraund2 .form {
+  padding: 50px;
+  line-height: 10px;
+  background-image: url(https://scontent.fiev22-1.fna.fbcdn.net/v/t1.15752-9/71269397_736377966862117_7495095566519500800_n.jpg?_nc_cat=100&_nc_oc=AQkydlo4RmFAReyAX0qnvsQFpWA4z1rUGDUOR0CE52FjoE8veGAAucE2Z--WB_fgOMY&_nc_ht=scontent.fiev22-1.fna&oh=e8fd356609987b707caa8889bcbf5e5d&oe=5E608036);
+  font-weight: 900;
+  font-size: 22px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  border-radius: 15px;
+}
+
+.backgraund2 .form .line {
+  height: 3px;
+  width: 450px;
+  background-color: forestgreen;
+}
+
+.backgraund2 .form .first_name {
+  line-height: 50px;
+}
+
+.backgraund2 .form .last_name {
+  margin-bottom: 10px;
+}
+
+.backgraund2 .form .button {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.backgraund2 .form button {
+  border-radius: 5px;
+}
+
+.backgraund2 .form input[type='button'] {
+  border-radius: 5px;
+}
+
+.backgraund2 .form select {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.backgraund2 .form .chek {
+  padding: 10px;
+}
+
+.backgraund2 .form .chek input[type="radio"] {
+  margin: 15px;
+  margin-bottom: 5px;
+}
+
+.backgraund2 .form .box {
+  padding: 10px;
+}
+
+.backgraund2 .form .box input[type="checkbox"] {
+  margin: 15px;
+  margin-bottom: 5px;
+}
+
+.backgraund3 {
+  background-image: url(https://kiev.informator.ua/wp-content/uploads/2018/12/elka_podol-0961.jpg);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  display: block;
+}
+
+.backgraund3 .youtube {
+  text-align: center;
+}
+
+.backgraund3 .datlist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  background-color: rgba(159, 126, 96, 0.3);
+  border-radius: 15px;
+}
+
+.backgraund3 .datlist .artist {
+  color: wheat;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.backgraund3 .datlist button {
+  font-size: 22;
+  color: black;
+  font-weight: 900;
+}
+
+.backgraund3 details {
+  color: wheat;
+  font-size: 22px;
+  font-weight: 200;
+  margin: 20px;
+}
+
+footer {
+  background-image: url(https://kiev.informator.ua/wp-content/uploads/2018/12/elka_podol-0961.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .resume {
+  display: block;
+  background-image: url(https://scontent.fiev22-1.fna.fbcdn.net/v/t1.15752-9/71269397_736377966862117_7495095566519500800_n.jpg?_nc_cat=100&_nc_oc=AQkydlo4RmFAReyAX0qnvsQFpWA4z1rUGDUOR0CE52FjoE8veGAAucE2Z--WB_fgOMY&_nc_ht=scontent.fiev22-1.fna&oh=e8fd356609987b707caa8889bcbf5e5d&oe=5E608036);
+}
+
+footer .resume a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-size: 44px;
+}
+/*# sourceMappingURL=main.css.map */

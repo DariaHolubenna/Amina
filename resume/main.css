@@ -1,0 +1,232 @@
+main {
+  cursor: default;
+  background-image: url(http://www.radionetplus.ru/uploads/posts/2015-12/1449955981_0_ef2d3_cc679298_orig.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+main header {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1020px;
+  background-color: rgba(111, 84, 63, 0.7);
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding-right: 15px;
+}
+
+main header .container_header {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1020px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main header .container_header img {
+  height: 150px;
+}
+
+main header .container_header h1 {
+  color: wheat;
+  padding: 8px;
+  background-color: green;
+  font-size: 62px;
+  border-radius: 15px;
+  border: 2px solid red;
+}
+
+main .container {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1020px;
+}
+
+main .container .biography {
+  background-color: rgba(111, 84, 63, 0.7);
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 40px;
+}
+
+main .container .biography h2 {
+  text-align: center;
+  color: wheat;
+  padding: 8px;
+  font-size: 62px;
+  border-radius: 15px;
+  border: 2px solid red;
+  letter-spacing: 2px;
+}
+
+main .container .biography p {
+  color: wheat;
+  border: 1px solid darkred;
+  line-height: 50px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+main .container .education {
+  background-color: rgba(111, 84, 63, 0.7);
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+main .container .education h2 {
+  text-align: center;
+  color: wheat;
+  padding: 8px;
+  font-size: 62px;
+  border-radius: 15px;
+  border: 2px solid red;
+  letter-spacing: 2px;
+}
+
+main .container .education li {
+  color: wheat;
+  border: 1px solid darkred;
+  line-height: 50px;
+  padding: 50px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+main .container .experience {
+  background-color: rgba(111, 84, 63, 0.7);
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 40px;
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+
+main .container .experience h2 {
+  text-align: center;
+  color: wheat;
+  padding: 8px;
+  font-size: 62px;
+  border-radius: 15px;
+  border: 2px solid red;
+  letter-spacing: 2px;
+}
+
+main .container .experience span {
+  text-align: center;
+  color: wheat;
+  border: 1px solid darkred;
+  line-height: 50px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+main .container .skills {
+  background-color: rgba(111, 84, 63, 0.7);
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+main .container .skills h2 {
+  text-align: center;
+  color: wheat;
+  padding: 8px;
+  font-size: 62px;
+  border-radius: 15px;
+  border: 2px solid red;
+  letter-spacing: 2px;
+}
+
+main .container .skills .computer {
+  text-align: center;
+  color: wheat;
+  border: 1px solid darkred;
+  line-height: 50px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+main .container .skills .computer ol {
+  text-align: start;
+}
+
+main .container .skills .computer ol :nth-child(even) {
+  color: darkred;
+}
+
+main .container .skills .computer .user {
+  color: darkred;
+  list-style-type: none;
+}
+
+main .container .lenguage {
+  background-color: rgba(111, 84, 63, 0.7);
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+main .container .lenguage h3 {
+  text-align: center;
+  color: wheat;
+  padding: 8px;
+  font-size: 62px;
+  border-radius: 15px;
+  border: 2px solid red;
+  letter-spacing: 2px;
+}
+
+main .container .lenguage li {
+  text-align: center;
+  color: wheat;
+  border: 1px solid darkred;
+  line-height: 50px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+main footer {
+  background-color: rgba(111, 84, 63, 0.7);
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 40px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: wheat;
+}
+
+main footer img {
+  width: 50px;
+  padding-left: 15px;
+}
+
+main footer .phone {
+  padding: 10px;
+  padding-left: 10px;
+}
+
+main footer .copyr {
+  color: darkred;
+}
+/*# sourceMappingURL=main.css.map */
